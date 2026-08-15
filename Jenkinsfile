@@ -6,7 +6,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/YOUR_USERNAME/student-management-system.git'
+                    url: 'https://github.com/ROVENOM3/Student-Management-System'
             }
         }
 
